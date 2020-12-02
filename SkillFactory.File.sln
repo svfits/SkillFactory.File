@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillFactory.File", "SkillF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillFactory.GetDirectory", "SkillFactory.GetDirectory\SkillFactory.GetDirectory.csproj", "{FE71C93D-DADB-43D4-BCCF-9B5DA74C2021}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "File", "File", "{039FB18C-8137-4A1E-8139-75D284E7E255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{8FAA84DD-3EF3-44CC-AD8E-648390BEBBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillFactory.Exceptions", "SkillFactory.Exceptions\SkillFactory.Exceptions.csproj", "{68DA9118-660C-4B55-9DE0-1E57E417056E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{FE71C93D-DADB-43D4-BCCF-9B5DA74C2021}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE71C93D-DADB-43D4-BCCF-9B5DA74C2021}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE71C93D-DADB-43D4-BCCF-9B5DA74C2021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DA9118-660C-4B55-9DE0-1E57E417056E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DA9118-660C-4B55-9DE0-1E57E417056E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DA9118-660C-4B55-9DE0-1E57E417056E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DA9118-660C-4B55-9DE0-1E57E417056E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F48DD21-B426-4DAC-BE8B-984EF3EB6E4C} = {039FB18C-8137-4A1E-8139-75D284E7E255}
+		{FE71C93D-DADB-43D4-BCCF-9B5DA74C2021} = {039FB18C-8137-4A1E-8139-75D284E7E255}
+		{68DA9118-660C-4B55-9DE0-1E57E417056E} = {8FAA84DD-3EF3-44CC-AD8E-648390BEBBEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8188E4F8-66DF-406D-8C29-8AC264ECF4F6}

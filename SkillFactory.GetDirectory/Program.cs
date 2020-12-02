@@ -78,6 +78,7 @@ namespace SkillFactory.GetDirectory
             {
                 // Call the Deserialize method to restore the object's state.
                 i = (T)serializer.Deserialize(reader);
+                //Dispose
             }
 
             return i;
