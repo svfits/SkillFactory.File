@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate", "Delegate", "{94
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillFactory.Delegate", "SkillFactory.Delegate\SkillFactory.Delegate.csproj", "{819DAE54-5663-41B7-ABBB-3221FDC69445}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillFactory.Event", "SkillFactory.Event\SkillFactory.Event.csproj", "{F42D7FEF-772D-4504-9DB5-A30259DA4927}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{819DAE54-5663-41B7-ABBB-3221FDC69445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{819DAE54-5663-41B7-ABBB-3221FDC69445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{819DAE54-5663-41B7-ABBB-3221FDC69445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42D7FEF-772D-4504-9DB5-A30259DA4927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42D7FEF-772D-4504-9DB5-A30259DA4927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42D7FEF-772D-4504-9DB5-A30259DA4927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42D7FEF-772D-4504-9DB5-A30259DA4927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{FE71C93D-DADB-43D4-BCCF-9B5DA74C2021} = {039FB18C-8137-4A1E-8139-75D284E7E255}
 		{68DA9118-660C-4B55-9DE0-1E57E417056E} = {8FAA84DD-3EF3-44CC-AD8E-648390BEBBEA}
 		{819DAE54-5663-41B7-ABBB-3221FDC69445} = {942E5865-A6EE-4C1C-97AA-4C1B9EBD4850}
+		{F42D7FEF-772D-4504-9DB5-A30259DA4927} = {942E5865-A6EE-4C1C-97AA-4C1B9EBD4850}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8188E4F8-66DF-406D-8C29-8AC264ECF4F6}
